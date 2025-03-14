@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <footer className="fixed w-full top-0 z-50 bg-white dark:bg-gray-900 p-4 h-16">
+        <footer className="fixed w-full z-50 bg- dark:bg-gray-900 p-4 h-20">
             <div className="container mx-auto flex justify-center items-center">
                 copyright PGO 
             </div>
