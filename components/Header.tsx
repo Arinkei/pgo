@@ -7,8 +7,8 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="fixed top-0 z-50 bg-white dark:bg-gray-900 p-4 h-16">
-            <div className="container mx-auto flex items-center">
+        <header className="sticky w-full flex items-center top-0 z-50 bg-white dark:bg-gray-900 p-4 h-16">
+            <div className=" ">
                 {/* 로고 */}
                 <Link href="/">
                     <Image 
