@@ -7,16 +7,14 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 bg-white p-4">
+        <header className="fixed top-0 z-50 bg-white dark:bg-gray-900 p-4">
             <div className="container mx-auto flex items-center">
                 {/* 로고 */}
-                <Link href="/" className="text-2xl font-bold">
+                <Link href="/">
                     <Image 
                         // className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                         src="/logo.png"
                         alt="pgo logo"
-                        width={201} // ✅ 크기 명시
-                        height={87} // ✅ 크기 명시
                         priority
                         />
                 </Link>
