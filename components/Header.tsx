@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <header className="fixed w-full top-0 z-50 bg-white dark:bg-gray-900 p-4 h-16">
-            <div className="container mx-auto flex justify-center items-center">
+            <div className="container mx-auto flex justify-center items-center bg-white">
                 {/* 로고 */}
                 <Link href="/">
                     <Image 
