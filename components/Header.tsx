@@ -7,35 +7,35 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-    <header className="bg-blue-600 text-white p-4">
-    <div className="container mx-auto flex justify-between items-center">
-        {/* 로고 */}
-        <Link href="/" className="text-2xl font-bold">
-            <Image 
-                // className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                src="/logo.png"
-                alt="pgo logo"
-                priority
-                />
-        </Link>
+        <header className="sticky top-0 z-50">
+            <div className="container mx-auto flex justify-between items-center">
+                {/* 로고 */}
+                <Link href="/" className="text-2xl font-bold">
+                    <Image 
+                        // className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                        src="/logo.png"
+                        alt="pgo logo"
+                        priority
+                        />
+                </Link>
 
         {/* 네비게이션 메뉴 */}
-        <nav className="hidden md:flex space-x-6">
-    {/* <Link href="/about" className="hover:underline">
+        {/* <nav className="hidden md:flex space-x-6">
+    <Link href="/about" className="hover:underline">
         소개
     </Link>
     <Link href="/contact" className="hover:underline">
         문의
-    </Link> */}
-        </nav>
+    </Link>
+        </nav> */}
         {/* 모바일 메뉴 버튼 */}
-        <button
+        {/* <button
             className="md:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
             >
             ☰
-        </button>
-    </div>
-    </header>
+        </button> */}
+            </div>
+        </header>
     );
 }
