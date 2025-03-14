@@ -15,6 +15,8 @@ export default function Header() {
                         // className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                         src="/logo.png"
                         alt="pgo logo"
+                        width={201} // ✅ 크기 명시
+                        height={87} // ✅ 크기 명시
                         priority
                         />
                 </Link>
