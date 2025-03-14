@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <footer className="fixed w-full z-50 bg- dark:bg-gray-900 p-4 h-20">
+        <footer className="fixed w-full z-50 bg-gray-900 p-4 h-30">
             <div className="container mx-auto flex justify-center items-center">
-                copyright PGO 
+                copyright ®PGO All rights reserved
             </div>
         </footer>
     );
