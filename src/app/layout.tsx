@@ -15,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="kr">
-      <body>
+      <body className="flex flex-col min-h-screen">
         <Header />
-        {children}
+          <main className="flew-grow">{children}</main>
         <Footer />
       </body>
     </html>
