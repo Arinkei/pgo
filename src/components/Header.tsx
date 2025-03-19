@@ -7,7 +7,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="sticky w-full top-0 z-50 bg-blue-300 p-4 h-16">
+        <header className="flex justify-center items-center bg-white">
             <div className="container mx-auto flex justify-center items-center">
                 {/* 로고 */}
                 <Link href="/">
@@ -15,6 +15,8 @@ export default function Header() {
                         // className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                         src="/logo.png"
                         alt="pgo logo"
+                        width={110}
+                        height={110}
                         priority
                         />
                 </Link>
