@@ -1,8 +1,6 @@
-'use client';
-
 import Link from 'next/link';
 import Image from "next/image";
-import NoticePage from "./NoticePage";
+import NoticeTable from '@/app/notice/NoticeTable';
 
 
 export default function Notice() {
@@ -12,9 +10,9 @@ export default function Notice() {
         Notice
       </h1>
 
-      <div className="">
-        <NoticePage />
-      </div>
+      <table className="">
+        <NoticeTable />
+      </table>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
 
