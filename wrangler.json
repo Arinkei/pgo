@@ -15,8 +15,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "pgo_db",
-      "database_id": "5913f3a3-5dfc-4293-9f32-597cbc84c25c"
+      "database_name": "your_database_name",
+      "database_id": "your_database_id"
     }
   ]
 }
