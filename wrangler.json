@@ -11,5 +11,12 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "pgo_db",
+      "database_id": "5913f3a3-5dfc-4293-9f32-597cbc84c25c"
+    }
+  ]
 }
