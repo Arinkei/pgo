@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="flex flex-col items-center justify-center">
                 <div className="flex">
                     <Link
-                        href="github.com/arinkei">
+                        href="https://github.com/arinkei">
                             <Image 
                                 src="/logo.png"
                                 alt="github link"
